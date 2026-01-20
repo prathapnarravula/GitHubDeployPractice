@@ -11,7 +11,7 @@ namespace GitHubDeployPractice
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Configure the HTTP request pipeline. test change
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
